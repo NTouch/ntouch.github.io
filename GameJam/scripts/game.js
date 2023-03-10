@@ -1,4 +1,4 @@
-import { starCreator } from "./helpers";
+import './helpers';
 
 var config = {
     type: Phaser.AUTO,
