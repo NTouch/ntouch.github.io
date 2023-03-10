@@ -81,7 +81,7 @@ function create ()
     });
 
     this.physics.add.collider(stars, platforms);
-    this.physics.add.overlap(player, stars, collectStar, null, this);    
+    this.physics.add.overlap(player, stars, collectStar, null, this);
 }
 
 function update() {
