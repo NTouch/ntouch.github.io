@@ -1,6 +1,0 @@
-[submodule "phaser"]
-	path = phaser
-	url = https://github.com/photonstorm/phaser.git
-[submodule "GameJam/phaser"]
-	path = GameJam/phaser
-	url = https://github.com/photonstorm/phaser.git
