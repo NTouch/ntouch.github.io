@@ -1,6 +1,3 @@
-const { Physics } = require("../phaser");
-const { Phaser } = require("../phaser");
-
 var config = {
     type: Phaser.AUTO,
     width: 800,
