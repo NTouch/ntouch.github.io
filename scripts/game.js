@@ -1,8 +1,5 @@
-import { Physics } from "../";
-import { Phaser } from "../";
-
-//const { Physics } = require("../phaser");
-//const { Phaser } = require("../phaser");
+const { Physics } = require("../phaser");
+const { Phaser } = require("../phaser");
 
 var config = {
     type: Phaser.AUTO,
