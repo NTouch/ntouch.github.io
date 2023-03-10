@@ -75,7 +75,7 @@ function create ()
     });
 
     stars.children.iterate(function (child) {
-        child.setBounceY(phaser.Math.FloatBetween(0.4, 0.8))
+        child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8))
     });
 }
 
