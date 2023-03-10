@@ -1,3 +1,5 @@
+import { starCreator } from "./helpers";
+
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -67,6 +69,8 @@ function create ()
     this.physics.add.collider(player, platforms);
 
     cursors = this.input.keyboard.createCursorKeys();
+
+    stars = starCreator();
 }
 
 function update() {
