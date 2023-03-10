@@ -1,5 +1,5 @@
-import { Physics } from "../phaser";
-import { Phaser } from "../phaser";
+import { Physics } from "../phaser.js";
+import { Phaser } from "../phaser.js";
 
 //const { Physics } = require("../phaser");
 //const { Phaser } = require("../phaser");
