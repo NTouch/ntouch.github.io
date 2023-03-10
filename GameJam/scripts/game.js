@@ -1,5 +1,3 @@
-import './helpers.js';
-
 var config = {
     type: Phaser.AUTO,
     width: 800,
@@ -70,7 +68,15 @@ function create ()
 
     cursors = this.input.keyboard.createCursorKeys();
 
-    stars = starCreator();
+    stars = this.physics.add.group({
+        key: 'star',
+        repeat: 11,
+        setXY: { x: 12, y: 0, stepX: 70}
+    });
+
+    stars.children.iterate(function (child) {
+        child.setBounceY(phaser.Math.FloatBetween(0.4, 0.8))
+    });
 }
 
 function update() {
